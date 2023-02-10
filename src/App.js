@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// import RefHook from "./components/RefHook";
+// import ImperativeHandle from "./components/ImperativeHandle";
+// import UseLayoutEffect from "./components/UseLayoutEffect";
+
+import UseMemoo from "./components/UseMemo";
+
+// import Login from "./components/Login";
+// import User from "./components/User";
+// import HookContextProvider from "./context/HookContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <RefHook /> */}
+      {/* <UseLayoutEffect /> */}
+      {/* <ImperativeHandle /> */}
+      {/* <HookContextProvider>
+        <Login />
+        <User />
+      </HookContextProvider> */}
+      <UseMemoo />
+    </>
   );
 }
 
